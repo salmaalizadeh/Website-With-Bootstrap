@@ -56,7 +56,10 @@
   transform: scale(1.08);
 }
 .next-section {
-  background-color: #f8f4f1;
+  background-image: url(image/back\ 2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .next-section h2 {
@@ -65,11 +68,11 @@
 }
 
 .next-section p {
-  color: #777;
+  color: #5e3302;
+  font-size: 20px;
 }
 
 .next-card {
-  background-color: white;
   border-radius: 15px;
   overflow: hidden;
   height: 100%;
