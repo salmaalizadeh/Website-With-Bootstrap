@@ -1,5 +1,7 @@
 .about-section {
-  background-color: #f7f1e8;
+  background-image: url(image/back\ 1.jpg);
+  background-size: cover;
+  background-position: center;
   color: #34312e;
 }
 
@@ -52,4 +54,58 @@
 
 .cup-card:hover img {
   transform: scale(1.08);
+}
+.next-section {
+  background-color: #f8f4f1;
+}
+
+.next-section h2 {
+  font-weight: bold;
+  color: #3d302b;
+}
+
+.next-section p {
+  color: #777;
+}
+
+.next-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.next-card img {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.next-text {
+  padding: 20px;
+}
+
+.next-text h3 {
+  color: #3d302b;
+}
+
+.next-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.next-card:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+  .next-card img {
+    height: 230px;
+  }
+
+  .next-text {
+    padding: 15px;
+  }
 }
