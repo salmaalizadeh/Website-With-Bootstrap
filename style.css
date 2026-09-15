@@ -112,3 +112,63 @@
     padding: 15px;
   }
 }
+.cherry-section {
+  background-color: #f3dfcc;
+}
+
+.cherry-image {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.cherry-image img {
+  width: 90%;
+  height: 420px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.cherry-image:hover img {
+  transform: scale(1.06);
+}
+
+.cherry-text {
+  padding: 20px;
+}
+
+.small-title {
+  color: #9b5d50 !important;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.cherry-text h2 {
+  color: #382b27;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.cherry-text p {
+  color: #6f6662;
+  line-height: 1.7;
+}
+
+.cherry-text .btn {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .cherry-image img {
+    height: 280px;
+  }
+
+  .cherry-text {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .cherry-text h2 {
+    font-size: 28px;
+  }
+}
