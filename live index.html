@@ -9,15 +9,17 @@
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+
+  <body id="home">
     <nav
       class="navbar navbar-expand-sm navbar-dark"
       style="background-color: #752910"
     >
       <div class="container">
-        <a class="navbar-brand" href="javascript:void(0)"
-          ><img src="image/logo-.png" alt="img" style="width: 70px"
-        /></a>
+        <a class="navbar-brand" href="#home">
+          <img src="image/logo-.png" alt="img" style="width: 70px" />
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -26,6 +28,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
@@ -33,44 +36,52 @@
                 >Home</a
               >
             </li>
+
             <li class="nav-item">
               <a
                 class="nav-link"
                 href="#types"
                 style="padding-left: 70px; color: #fddebf"
-                >Cup Collection</a
               >
+                Cup Collection
+              </a>
             </li>
+
             <li class="nav-item">
               <a
                 class="nav-link"
                 href="#about"
                 style="padding-left: 70px; color: #fddebf"
-                >About</a
               >
+                About
+              </a>
             </li>
+
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#about"
+                href="#contact"
                 style="padding-left: 70px; color: #fddebf"
-                >Contact</a
               >
+                Contact
+              </a>
             </li>
           </ul>
+
           <form class="d-flex">
             <input class="form-control me-2" type="text" placeholder="Search" />
-            <button
+            <a
+              href="#types"
               class="btn"
               style="background-color: #f7f1e8; white-space: nowrap"
-              type="button"
             >
               Explore Cups
-            </button>
+            </a>
           </form>
         </div>
       </div>
     </nav>
+
     <section id="about" class="about-section py-5">
       <div class="container">
         <div class="text-center mb-5">
@@ -82,7 +93,7 @@
           </p>
         </div>
 
-        <div class="row g-4">
+        <div id="types" class="row g-4">
           <div class="col-md-4">
             <div class="cup-card">
               <img src="image/img 2.png" alt="Ceramic Mug" />
@@ -115,12 +126,14 @@
         </div>
       </div>
     </section>
+
     <section class="py-5 next-section">
       <div class="container">
         <div class="text-center mb-4">
           <h2>Explore More</h2>
           <p>Discover something beautiful and simple.</p>
         </div>
+
         <div class="row g-4">
           <div class="col-12 col-md-6">
             <div class="next-card">
@@ -146,6 +159,7 @@
         </div>
       </div>
     </section>
+
     <section class="cherry-section py-5">
       <div class="container">
         <div class="row align-items-center g-4">
@@ -169,6 +183,7 @@
         </div>
       </div>
     </section>
+
     <section id="contact" class="contact-section py-5">
       <div class="container">
         <div class="text-center mb-5">
